@@ -1,0 +1,18 @@
+HVR COMPETICIÓN - VOLUMEN DE CÁMARA PARA ANDROID
+
+Este archivo ZIP contiene el proyecto nativo Android para compilar una aplicación APK.
+No es un APK ya compilado.
+
+COMPILACIÓN (en una PC con Android Studio):
+1. Descomprimir el ZIP.
+2. Abrir Android Studio > Open > carpeta HVR_Volumen_Android.
+3. Esperar la sincronización Gradle (necesita conexión para descargar dependencias).
+4. Build > Build Bundle(s) / APK(s) > Build APK(s).
+5. APK generado en app/build/outputs/apk/debug/app-debug.apk.
+6. Copiar el APK al celular e instalarlo (autorizar instalación desde esa fuente si Android lo solicita).
+
+La aplicación funciona sin conexión a Internet, permite elegir una foto del celular,
+marcar escala y contorno, calcular una estimación geométrica y exportar CSV.
+
+ADVERTENCIA: El volumen calculado usa un perfil de profundidad supuesto. No es
+una medición real ni corrige el volumen de las válvulas; verificar con bureta.
